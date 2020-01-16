@@ -1,0 +1,27 @@
+/*подключаем шрифт*/
+   @font-face {
+    font-family: montserrat.css;
+    src: url(fonts/montserrat.ttf); 
+}
+/*задаем свойства тела и др разделов*/
+body {
+    font-family: "monrserrat", sans-serif;
+    line-height: 1.3;
+   }
+
+h1,h2,h3 {
+    text-align: left;
+   
+   }
+
+/*назначаем классы*/
+.icon1 {
+    width: 290px; 
+   }
+.fig {
+    text-align: center; /* Выравнивание по центру */ 
+   }
+.font1 {
+   font-size: 21px;
+   letter-spacing: 0.04em;
+   }
